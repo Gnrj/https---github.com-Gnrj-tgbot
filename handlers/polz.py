@@ -24,5 +24,5 @@ async def pred(message: types.Message):
 """Запуск хендлеров"""
 def register_handlers_polz(dp : Dispatcher):
     dp.register_message_handler(start, commands=['start'])
-    dp.register_message_handler(lomsc, commands=['Что_такое_Lomonosov_School?'])
+    dp.register_message_handler(lomsc, commands=['help'])
     dp.register_message_handler(pred, commands=['Предметы'])

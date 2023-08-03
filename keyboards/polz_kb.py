@@ -2,7 +2,7 @@
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 #инициализация кнопок
 b1 = KeyboardButton('/Что_такое_Lomonosov_School?')
-b2 = KeyboardButton('/Предметы')
+b2 = KeyboardButton('/help')
 
 
 kb_polz = ReplyKeyboardMarkup(resize_keyboard=True, one_time_keyboard=True)
