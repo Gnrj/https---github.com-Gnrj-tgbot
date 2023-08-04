@@ -4,7 +4,7 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 lin1 = [InlineKeyboardButton(text='Биология', callback_data='bioilogy'), InlineKeyboardButton(text='Физика', callback_data='fizika'),\
         InlineKeyboardButton(text='История', callback_data='history'), InlineKeyboardButton(text='Химия', callback_data='chemical')]
-lin2 = [InlineKeyboardButton(text='Математика', callback_data='mathematic'), InlineKeyboardButton(text='Русский язык', callback_data='russian'),\
+lin2 = [InlineKeyboardButton(text='Математика', callback_data='math'), InlineKeyboardButton(text='Русский язык', callback_data='russian'),\
         InlineKeyboardButton(text='Информатика', callback_data='it')]
 lin3 = [InlineKeyboardButton(text='Литература', callback_data='litr'), InlineKeyboardButton(text='Английский язык', callback_data='angl'),\
         InlineKeyboardButton(text='Обществознание', callback_data='obsh')]
