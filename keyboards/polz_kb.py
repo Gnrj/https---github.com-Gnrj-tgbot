@@ -1,7 +1,7 @@
 # -*- coding: cp1251 -*-
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 #инициализация кнопок
-b1 = KeyboardButton('/Что_такое_Lomonosov_School?')
+b1 = KeyboardButton('/Предметы')
 b2 = KeyboardButton('/help')
 
 
